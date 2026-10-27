@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" font-family="-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <rect width="640" height="360" rx="14" fill="#0d1117"/>
+  <rect x="16" y="16" width="608" height="328" rx="10" fill="#161b22" stroke="#30363d"/>
+  <text x="32" y="48" fill="#e6edf3" font-size="20" font-weight="700">📋 ReadmeLint 报告 — README.md</text>
+  <circle cx="96" cy="120" r="44" fill="none" stroke="#2ea043" stroke-width="10"/>
+  <path d="M96 76 A44 44 0 1 1 52 120" fill="none" stroke="#3fb950" stroke-width="10" stroke-linecap="round"/>
+  <text x="96" y="128" fill="#3fb950" font-size="26" font-weight="800" text-anchor="middle">95</text>
+  <text x="170" y="108" fill="#e6edf3" font-size="16" font-weight="700">评分 95/100 (A)</text>
+  <text x="170" y="132" fill="#8b949e" font-size="13">语言 zh · 通过 16 · 未通过 2 · 阻断未过 0</text>
+  <g font-size="13">
+    <text x="32" y="180" fill="#3fb950">✓ 一级标题</text>
+    <text x="32" y="204" fill="#3fb950">✓ 安装说明</text>
+    <text x="32" y="228" fill="#3fb950">✓ 使用说明</text>
+    <text x="32" y="252" fill="#3fb950">✓ 代码示例</text>
+    <text x="32" y="276" fill="#3fb950">✓ 开源协议</text>
+    <text x="330" y="180" fill="#f85149">✗ 状态徽章</text>
+    <text x="330" y="204" fill="#f85149">✗ 目录</text>
+    <text x="330" y="228" fill="#8b949e" font-size="11">💡 在标题下添加 shields.io 徽章</text>
+    <text x="330" y="252" fill="#8b949e" font-size="11">💡 在开头添加 ## 目录 或 [TOC]</text>
+  </g>
+</svg>
