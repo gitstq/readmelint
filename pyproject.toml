@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "readmelint"
+version = "1.0.0"
+description = "零依赖的 README 质量评分与检测工具 / A zero-dependency README quality linter & scorer"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "gitstq" }]
+keywords = ["readme", "markdown", "linter", "documentation", "quality", "scorer", "ci"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Documentation",
+    "Topic :: Software Development :: Quality Assurance",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/gitstq/readmelint"
+Repository = "https://github.com/gitstq/readmelint"
+Issues = "https://github.com/gitstq/readmelint/issues"
+
+[project.scripts]
+readmelint = "readmelint.cli:main"
+
+[tool.setuptools]
+packages = ["readmelint"]
+
+[tool.setuptools.package-data]
+readmelint = ["py.typed"]

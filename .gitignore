@@ -1,0 +1,30 @@
+# 构建产物 / Build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# 测试缓存 / Test caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 虚拟环境 / Virtual environments
+.venv/
+venv/
+env/
+
+# 编辑器 / IDE
+.idea/
+.vscode/
+*.swp
+
+# 操作系统 / OS
+.DS_Store
+Thumbs.db
+
+# 本地报告 / Local reports (kept out of VCS)
+report-*.md
+report-*.json

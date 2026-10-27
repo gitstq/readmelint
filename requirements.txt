@@ -1,0 +1,2 @@
+# ReadmeLint 仅依赖 Python 标准库，无需第三方包。
+# ReadmeLint depends on the Python standard library only — no third-party packages required.
